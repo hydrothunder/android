@@ -10,6 +10,8 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote fetch="https://bitbucket.org" name="bitbucket" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -27,6 +29,12 @@
   <project path="bionic" name="thunder-rom/android_bionic" remote="github" revision="cm-13.0" />
   <project path="frameworks/base" name="thunder-rom/android_frameworks_base" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="thunder-rom/android_frameworks_native" remote="github" revision="cm-13.0" />
+
+<!--UBERTC TOOLCHAINS -->
+  <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master" />
+  <project name="UBERTC/aarch64-linux-android-4.9-kernel" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bitbucket" revision="master" />
+  <project name="UBERTC/aarch64-linux-android-5.3-kernel" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" remote="bitbucket" revision="master" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
