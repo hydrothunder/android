@@ -10,7 +10,8 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <remote fetch="https://bitbucket.org" name="bitbucket" />
+  <remote  name="bitbucket" 
+		   fetch="https://bitbucket.org"  />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
