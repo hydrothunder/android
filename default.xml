@@ -30,6 +30,7 @@
   <project path="bionic" name="thunder-rom/android_bionic" remote="github" revision="cm-13.0" />
   <project path="frameworks/base" name="thunder-rom/android_frameworks_base" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="thunder-rom/android_frameworks_native" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Settings" name="thunder-rom/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
   <project path="vendor/cm" name="thunder-rom/android_vendor_cm" remote="github" revision="cm-13.0" />
 
 <!--UBERTC TOOLCHAINS -->
@@ -245,7 +246,7 @@
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" />
+  <!-- <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" /> -->
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
