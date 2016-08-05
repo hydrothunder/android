@@ -28,6 +28,7 @@
   <project path="android" name="hydrothunder/android" remote="github" revision="cm-13.0" />
   <project path="art" name="hydrothunder/android_art" remote="github" revision="cm-13.0" />
   <project path="bionic" name="hydrothunder/android_bionic" remote="github" revision="cm-13.0" />
+  <project path="external/jemalloc" name="hydrothunder/android_external_jemalloc" remote="github" revision="android-6.0"/>
   <project path="frameworks/base" name="hydrothunder/android_frameworks_base" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="hydrothunder/android_frameworks_native" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="hydrothunder/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
@@ -383,7 +384,7 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
+  <!-- <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" /> -->
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
