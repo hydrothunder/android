@@ -30,6 +30,7 @@
   <project path="bionic" name="hydrothunder/android_bionic" remote="github" revision="cm-13.0" />
   <project path="external/jemalloc" name="hydrothunder/android_external_jemalloc" remote="github" revision="android-6.0"/>
   <project path="frameworks/base" name="hydrothunder/android_frameworks_base" remote="github" revision="cm-13.0" />
+  <project path="frameworks/opt/telephony" name="hydrothunder/android_frameworks_opt_telephony" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="hydrothunder/android_frameworks_native" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Settings" name="hydrothunder/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
   <project path="vendor/cm" name="hydrothunder/android_vendor_cm" remote="github" revision="cm-13.0" />
@@ -181,7 +182,7 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+  <!-- <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" /> -->
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
