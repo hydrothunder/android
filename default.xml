@@ -29,6 +29,7 @@
   <project path="art" name="hydrothunder/android_art" remote="github" revision="cm-13.0" />
   <project path="bionic" name="hydrothunder/android_bionic" remote="github" revision="cm-13.0" />
   <project path="external/jemalloc" name="hydrothunder/android_external_jemalloc" remote="github" revision="android-6.0"/>
+  <project path="external/sqlite" name="hydrothunder/android_external_sqlite" remote="github" revision="cm-13.0" />
   <project path="frameworks/base" name="hydrothunder/android_frameworks_base" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="hydrothunder/android_frameworks_opt_telephony" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="hydrothunder/android_frameworks_native" remote="github" revision="cm-13.0" />
@@ -142,7 +143,7 @@
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
+  <!-- <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" /> -->
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
